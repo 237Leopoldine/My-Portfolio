@@ -52,7 +52,7 @@ ul {
     div.gallery {
         border: 20px solid  rgba(45, 66, 105, 0.795);  
         float: left;
-        width: 500px;
+        width: 300px;
         padding: 5px;
         background-color: rgb(15, 15, 17); 
       }
