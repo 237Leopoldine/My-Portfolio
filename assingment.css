@@ -6,7 +6,7 @@ body{
     width:100%;
     margin: 0px auto 0px auto;
 }
-.b1 { padding-top: 40%;
+.b1 { padding-top: 25%;
     padding-bottom: 55%;
     background-color: rgba(14, 11, 7, 0.973);  
 }
@@ -50,23 +50,30 @@ ul {
     } 
 
     div.gallery {
-        border: 20px solid  rgba(45, 66, 105, 0.795);  
-        float: left;
-        width: 300px;
-        padding: 5px;
-        background-color: rgb(15, 15, 17); 
-      }
-      
-      div.gallery:hover {
-        border:  ;
-      }
-      
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
-      
-      div.desc {
-         padding: 5px;
-        text-align: center;
-      }
+      border: 20px solid  rgba(45, 66, 105, 0.795);  
+      float: left;
+      width: 35%;
+      padding: 5px;
+      background-color: rgb(15, 15, 17); 
+    }
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+       padding: 5px;
+      text-align: center;
+    }
+
+    div.b3 img{
+      /* completely 
+        visible fill */
+      fill-opacity: 1.0;
+  
+      fill: rgb(0, 0, 0);
+    }
